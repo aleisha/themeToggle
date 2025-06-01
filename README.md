@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Dependencies necessary to run
+Node 17.9.1
+npm 8.11.0
+
+## Steps to run
+git clone https://github.com/aleisha/themeToggle.git into the repository of your choice
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
