@@ -1,3 +1,6 @@
+
+permalink: /public/index.html
+
 # Dependencies necessary to run
 Node 17.9.1
 npm 8.11.0
