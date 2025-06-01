@@ -15,7 +15,7 @@ import { useNavigate } from 'react-router-dom';
 import SettingsIcon from '@mui/icons-material/Settings';
 
 const pages = ['Philodendron', 'Monstera', 'Hoya'];
-const settings = ['Light', 'Dark', 'Tan'];
+const settings = ['Light', 'Dark', 'Striped'];
 
 function PlantMenu({selectedTheme, setSelectedTheme}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

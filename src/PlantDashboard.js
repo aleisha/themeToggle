@@ -1,9 +1,6 @@
 import './App.css';
 import { Grid, Paper } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import hoyaThumbnail from './assets/images/hoya-thumbnail.jpg'
-import monsteraThumbnail from './assets/images/monstera-thumbnail.jpg'
-import philodendronThumbnail from './assets/images/philodendron-thumbnail.jpg'
 
 export default function PlantDashboard() {
   const navigate = useNavigate();
@@ -20,15 +17,12 @@ export default function PlantDashboard() {
         }}
       >
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/philodendron`)}>
-          <img src={philodendronThumbnail} alt="Philodendron" />
           <h4>Philodendron</h4>
         </Grid>
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/monstera`)}>
-          <img src={monsteraThumbnail} alt="Monstera" />
           <h4>Monstera</h4>
         </Grid>
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/hoya`)}>
-          <img src={hoyaThumbnail} alt="Hoya" />
           <h4>Hoya</h4>
         </Grid>
       </Grid>

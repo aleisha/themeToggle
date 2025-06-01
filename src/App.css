@@ -9,7 +9,7 @@
   background-image: url('/public/images/pexels-minan1398-1353938.jpg');
 }
 
-.App.Tan {
+.App.Striped {
   background-color: #282c34;
   color: white;
   background: repeating-linear-gradient(
@@ -19,10 +19,9 @@
     rgba(0, 0, 0, 0.3) 10px,
     rgba(0, 0, 0, 0.3) 20px
   ),
-  url('/public/images/old_map_@2X.png');
 }
 
-.AppBar.Tan {
+.AppBar.Striped {
   background-color: #282c34;
 }
 
@@ -46,7 +45,7 @@
   background-color: #fff;
 }
 
-.settings-background.Tan:hover {
+.settings-background.Striped:hover {
   background-color: #ddd6d6;
 }
 
@@ -58,7 +57,7 @@
   background-color: #b5d0ea;
 }
 
-.settings-icon.Tan {
+.settings-icon.Striped {
   color: #282c34;
 }
 
@@ -103,7 +102,7 @@
   color: #ffffff;
 }
 
-.App.Tan .App-content .MuiPaper-root {
+.App.Striped .App-content .MuiPaper-root {
   background-color: #716f6f;
   color: #ffffff;
 }

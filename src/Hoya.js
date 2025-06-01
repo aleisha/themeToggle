@@ -1,18 +1,10 @@
 import './App.css';
 import { Paper, Container } from '@mui/material';
 import { Fragment } from 'react';
-import hoyaThumbnail from './assets/images/hoya-thumbnail.jpg'
-import hoya from './assets/images/hoya-805984_640.jpg'
 
 export default function Hoya() {
   return (
     <Fragment>
-      <Container maxWidth="xs" sx={{ display: { sm: 'block', md: 'none' } }}>
-        <img src={hoyaThumbnail} alt="Hoya Bella" />
-      </Container>
-      <Container maxWidth="xl" sx={{ display: { xs: 'none', md: 'block' } }}>
-        <img src={hoya} alt="Hoya Bella" />
-      </Container>
       <Container maxWidth="xl">
         <h2>Hoya</h2>
         <Paper>

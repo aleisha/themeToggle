@@ -2,7 +2,7 @@
   "name": "plants",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aleisha.github.io/themeToggle",
+  "homepage": "https://aleisha.github.io/",
   "dependencies": {
     "@arcgis/core": "^4.32.10",
     "@emotion/react": "^11.14.0",
