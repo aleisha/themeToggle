@@ -6,10 +6,10 @@ export default function Philodendron() {
   return (
     <Fragment>
       <Container maxWidth="xs" sx={{ display: { sm: 'block', md: 'none' } }}>
-        <img src="/images/philodendron-thumbnail.jpg" alt="Philodendron" />
+        <img src="%PUBLIC_URL%/images/philodendron-thumbnail.jpg" alt="Philodendron" />
       </Container>
       <Container maxWidth="xl" sx={{ display: { xs: 'none', md: 'block' } }}>
-        <img src="/images/millzero-nishan-U0ki8aabVZ8-unsplash.jpg" alt="Philodendron" />
+        <img src="%PUBLIC_URL%/images/millzero-nishan-U0ki8aabVZ8-unsplash.jpg" alt="Philodendron" />
       </Container>
       <Container maxWidth="xl">
         <h2>Monstera</h2>

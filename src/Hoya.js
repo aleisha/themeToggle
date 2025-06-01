@@ -6,10 +6,10 @@ export default function Hoya() {
   return (
     <Fragment>
       <Container maxWidth="xs" sx={{ display: { sm: 'block', md: 'none' } }}>
-        <img src="/images/hoya-thumbnail.jpg" alt="Hoya Bella" />
+        <img src="%PUBLIC_URL%/images/hoya-thumbnail.jpg" alt="Hoya Bella" />
       </Container>
       <Container maxWidth="xl" sx={{ display: { xs: 'none', md: 'block' } }}>
-        <img src="/images/hoya-805984_640.jpg" alt="Hoya Bella" />
+        <img src="%PUBLIC_URL%/images/hoya-805984_640.jpg" alt="Hoya Bella" />
       </Container>
       <Container maxWidth="xl">
         <h2>Hoya</h2>

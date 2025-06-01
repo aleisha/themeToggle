@@ -17,15 +17,15 @@ export default function PlantDashboard() {
         }}
       >
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/philodendron`)}>
-          <img src="/images/philodendron-thumbnail.jpg" alt="Philodendron" />
+          <img src="%PUBLIC_URL%//images/philodendron-thumbnail.jpg" alt="Philodendron" />
           <h4>Philodendron</h4>
         </Grid>
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/monstera`)}>
-          <img src="/images/monstera-thumbnail.jpg" alt="Monstera" />
+          <img src="%PUBLIC_URL%//images/monstera-thumbnail.jpg" alt="Monstera" />
           <h4>Monstera</h4>
         </Grid>
         <Grid size={{ xs: 12, sm: 4 }} sx={{cursor: 'pointer'}} onClick={() => navigate(`/hoya`)}>
-          <img src="/images/hoya-thumbnail.jpg" alt="Hoya" />
+          <img src="%PUBLIC_URL%//images/hoya-thumbnail.jpg" alt="Hoya" />
           <h4>Hoya</h4>
         </Grid>
       </Grid>

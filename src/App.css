@@ -6,7 +6,7 @@
 .App.Light {
   background-color: #ffffff;
   color: #282c34;
-  background-image: url('/public/images/pexels-minan1398-1353938.jpg');
+  background-image: url('%PUBLIC_URL%/images/pexels-minan1398-1353938.jpg');
 }
 
 .App.Tan {
