@@ -51,7 +51,7 @@ function PlantMenu({selectedTheme, setSelectedTheme}) {
     <AppBar className={`AppBar ${selectedTheme}`} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <MenuItem key="Home" onClick={() => navigate(`/`)}>
+          <MenuItem key="Home" onClick={() => navigate(`/themeToggle`)}>
             <GrassRoundedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
             <Typography
               variant="h6"
@@ -98,7 +98,7 @@ function PlantMenu({selectedTheme, setSelectedTheme}) {
               onClose={handleCloseNavMenu}
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
-              <MenuItem key="Home" onClick={() => navigate(`/`)}>
+              <MenuItem key="Home" onClick={() => navigate(`/themeToggle`)}>
                 <Typography sx={{ textAlign: 'center' }}>Home</Typography>
               </MenuItem>
               {pages.map((page) => (
@@ -131,7 +131,7 @@ function PlantMenu({selectedTheme, setSelectedTheme}) {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <Button
                 key="Home"
-                onClick={() => navigate(`/`)}
+                onClick={() => navigate(`/themeToggle`)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 Home

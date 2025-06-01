@@ -1,15 +1,17 @@
 import './App.css';
 import { Paper, Container } from '@mui/material';
 import { Fragment } from 'react';
+import monsteraThumbnail from './assets/images/monstera-thumbnail.jpg'
+import monstera from './assets/images/closeup-exotic-philodendron-leaf.jpg'
 
 export default function Monster() {
   return (
     <Fragment>
       <Container maxWidth="xs" sx={{ display: { sm: 'block', md: 'none' } }}>
-        <img src="%PUBLIC_URL%/images/monstera-thumbnail.jpg" alt="Monstera" />
+        <img src={monsteraThumbnail} alt="Monstera" />
       </Container>
       <Container maxWidth="xl" sx={{ display: { xs: 'none', md: 'block' } }}>
-        <img src="%PUBLIC_URL%/images/closeup-exotic-philodendron-leaf.jpg" alt="Monstera" />
+        <img src={monstera} alt="Monstera" />
       </Container>
       <Container maxWidth="xl">
         <h2>Monstera</h2>

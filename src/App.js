@@ -14,7 +14,7 @@ function App() {
       <PlantMenu selectedTheme={selectedTheme} setSelectedTheme={setSelectedTheme} />
       <header className="App-content">
         <Routes>
-          <Route path="/" element={<PlantDashboard />} />
+          <Route path="/themeToggle" element={<PlantDashboard />} />
           <Route path="/philodendron" element={<Philodendron />} />
           <Route path="/monstera" element={<Monstera />} />
           <Route path="/hoya" element={<Hoya/>}>Hoya</Route>

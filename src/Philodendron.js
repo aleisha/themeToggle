@@ -1,15 +1,17 @@
 import './App.css';
 import { Paper, Container } from '@mui/material';
 import { Fragment } from 'react';
+import philodendronThumbnail from './assets/images/philodendron-thumbnail.jpg'
+import philodendron from './assets/images/millzero-nishan-U0ki8aabVZ8-unsplash.jpg'
 
 export default function Philodendron() {
   return (
     <Fragment>
       <Container maxWidth="xs" sx={{ display: { sm: 'block', md: 'none' } }}>
-        <img src="%PUBLIC_URL%/images/philodendron-thumbnail.jpg" alt="Philodendron" />
+        <img src={philodendronThumbnail} alt="Philodendron" />
       </Container>
       <Container maxWidth="xl" sx={{ display: { xs: 'none', md: 'block' } }}>
-        <img src="%PUBLIC_URL%/images/millzero-nishan-U0ki8aabVZ8-unsplash.jpg" alt="Philodendron" />
+        <img src={philodendron} alt="Philodendron" />
       </Container>
       <Container maxWidth="xl">
         <h2>Monstera</h2>
