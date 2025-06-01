@@ -19,6 +19,7 @@
     rgba(0, 0, 0, 0.3) 10px,
     rgba(0, 0, 0, 0.3) 20px
   ),
+  url('/public/images/old_map_@2X.png');
 }
 
 .AppBar.Striped {
@@ -33,7 +34,7 @@
   background-color: rgb(25, 118, 210);
 }
 
-.settings-background.Tan {
+.settings-background.Striped {
   background-color: #fff;
 }
 
