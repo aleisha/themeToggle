@@ -1,6 +1,4 @@
 
-permalink: /index.html
-
 # Dependencies necessary to run
 Node 17.9.1
 
