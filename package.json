@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "git add .&&git commit -a -m 'CommitingChanges'&&git clean -df&&npm run build&&gh-pages -d build",
+    "deploy": "git add .&&git commit -a -m 'CommitingChanges'&&npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
